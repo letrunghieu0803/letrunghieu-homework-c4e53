@@ -20,6 +20,9 @@ let total =0
 for (let b=0;b<mySheep.length;b++){
     total= total + mySheep[b]
 }
+let total= mySheep.reduce((weight, animal, index, animals) => {
+    return weight += animal.weight
+}, 0)
 console.log(`My flock has size in total: ${total}`)
 money = total*2
 console.log(`I would get ${total} * 2$ = ${money}$`)
