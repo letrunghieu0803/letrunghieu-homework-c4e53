@@ -87,20 +87,38 @@ console.log(others);// {country: "Nigeria", job: "Developer"}
 
 
 
-   //     name = ["Xiaomi portable charger 20000mah",
-    //     "VSmart Active 1",
-    //     "IPhone X",
-    //     "Samsung Galaxy A9"
-    //     ],
-    //     brand = ["Xiaomi", "VSmart", "Apple", "SamSung"],
-    //     price = [428, 5487, 21490, 8490],
-    //     color = ["White", "Black", "Gray", "Blue"],
-    //     category = ["Charger", "Phone", "Phone", "Phone"],
-    //     providers = ["Phukienzero Dientuccc","Tgdd Ddghn VhStore", "Tgdd", "Tgdd"]
-    // ]
-    console.log(initialize[0][0])
-    // var { name : Name, brand, price, color, category, providers} = initialize
-    // let userInput = prompt("Enter provider:")
-    // for(let i=0; i<providers.length;i++){
-    //     if(userInput in )
-    // }
+   
+
+    var initialize = [{
+        Name:"Xiaomi portable charger 20000mah",
+        Brand : "Xiaomi",
+        Price :428,
+        Color :"White",
+        Category :"Charger", 
+        Providers:"Phukienzero Dientuccc",
+    },
+    {
+        name:"VSmart Active 1",
+        brand : "VSmart",
+        price :5487,
+        color :"Black",
+        category :"Phone", 
+        providers:"Tgdd Ddghn VhStore",
+    },
+    {
+        name:"Xiaomi portable charger 20000mah",
+        brand : "Apple",
+        price :21490,
+        color :"Gray",
+        category :"Phone", 
+        providers:"Tgdd",
+    },
+    {
+        name:"Xiaomi portable charger 20000mah",
+        brand : "Samsung",
+        price :8490,
+        color :"Blue",
+        category :"Phone", 
+        providers:"Tgdd",
+    }
+    ]

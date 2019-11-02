@@ -15,14 +15,20 @@ var initialize={
     let userInput = prompt("Enter provider:")
     let key = Object.keys(initialize)
     let value = Object.values(initialize)
+    console.log(key)
+    let cso = key.indexOf("Name")
+    console.log(cso)
+    // console.log(providers.length)
+    // console.log(providers)
     for(let i=0; i<providers.length;i++){
-        for(let a=0;a < providers[i].length;a++){
-            let cs = providers[i][a].indexOf(userInput)
+        
+            let cs = providers[i].indexOf(userInput)
+            console.log(cs)
             if(cs>=0){
                 for(let b=0;b<key.length;b++){
-                    console.log(`${key[b]}: ${value[b][cs]}`)
+                    console.log(`${key[b]}: ${value[b][i]}`)
                 }
                 
-            }       
-        }
+                  
+            }
     }
