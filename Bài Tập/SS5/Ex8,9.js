@@ -17,3 +17,7 @@ if(JSON.stringify(get_even_list(even_list)) == JSON.stringify([2, -10, 6])){
 }
 else
     console.log("Ooops, bugs detected")
+
+
+// Thay vì xóa phần tử của mảng đã cho, hãy thêm phần tử đó sang mảng khác ~
+//  Nên thay lại cách viết code 
