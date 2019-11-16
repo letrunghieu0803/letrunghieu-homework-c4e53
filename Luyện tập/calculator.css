@@ -1,0 +1,39 @@
+
+table {
+    border: red solid;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+}
+body {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 150px;
+    border : rgb(201, 192, 255) solid 5px;
+    border-radius: 10px;
+    background-attachment: fixed;
+}
+#result {
+    margin: 0 auto;
+    width: auto;
+    height: 40px;
+    border: red solid 3px;
+    font-size: 25px;
+    display: block;
+    padding: 2px;
+    overflow: auto;
+    text-align: right;
+    border-radius: 10px;
+    
+}
+.button {
+    width: 22%;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 30px;
+    color: rgb(237, 100, 118);
+    border: none;
+    border-radius: 20px;
+}
+
+

@@ -1,0 +1,19 @@
+button {
+    border: none;
+    display: block;
+    text-align: right;
+}
+#span1{
+    align-content: center;
+    display: block;
+    font: 1.5em sans-serif;
+    text-align: right;
+    margin-top: 200px;
+    margin-right: 200px;
+}
+#span2 {
+    align-content: center;
+    display: block;
+    text-align: right;
+    margin-right: 200px;
+}
